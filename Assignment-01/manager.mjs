@@ -1,7 +1,7 @@
 import books from "./books.mjs";
 
 // +++++   Grater then 4.5 rating Books titles  +++++
-let booksTitle = books
+books
   .filter((book) => book.rating > 4.5)
   .map((book) => console.log(book.title)); 
 
@@ -25,8 +25,8 @@ console.log(booksAuthor);
 console.log("-------------------------------------------");
 
 
-// +++++   All Book Author   +++++
-let allBooks = books
+// +++++   All Books   +++++
+books
   .map((book) => console.log(book));
   
 
